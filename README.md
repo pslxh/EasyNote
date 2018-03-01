@@ -6,7 +6,7 @@
 
 ## 应用截屏
 ### Tablet
-[<img src="screenshots/note_p_1.jpg" width=960>](screenshots/note_p_1.jpg)
-[<img src="screenshots/note_p_2.jpg" width=960>](screenshots/note_p_2.jpg)
-[<img src="screenshots/note_p_3.jpg" width=960>](screenshots/note_p_3.jpg)
+[<img src="screenshots/note_p_1.jpg" width=480>](screenshots/note_p_1.jpg)
+[<img src="screenshots/note_p_2.jpg" width=480>](screenshots/note_p_2.jpg)
+[<img src="screenshots/note_p_3.jpg" width=480>](screenshots/note_p_3.jpg)
    
