@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:id="@+id/topView"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/imge"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/logo_note"
+            android:background="#FFFFFF" />
+        <TextView
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/munu_type"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/d_lin"
+        android:layout_below="@id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="@color/zi_se" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/d_lin">
+        <com.jeremyfeinstein.slidingmenu.lib.SlidingMenu
+            xmlns:sliding="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/slidingmenulayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"
+            sliding:behindOffset="150dp"
+            sliding:behindScrollScale="1"
+            sliding:fadeDegree="0.3"
+            sliding:fadeEnabled="true"
+            sliding:touchModeAbove="fullscreen"
+            sliding:viewAbove="@layout/content"
+            sliding:viewBehind="@layout/left_menu" />
+    </LinearLayout>
+
+
+</RelativeLayout>

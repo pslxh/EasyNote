@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">便签</string>
+
+    <string name="creat_note_time">最近修改：%s</string>
+
+    <string name="menu_all">全部</string>
+    <string name="menu_work">工作</string>
+    <string name="menu_live">生活</string>
+    <string name="menu_temporary">临时</string>
+    <string name="menu_encryption">加密</string>
+
+    <string name="create_write_time">创建时间：%s</string>
+
+    <string name="adapter_time">时间:%s</string>
+
+</resources>

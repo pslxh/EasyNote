@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="gray">#afafaf</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="trans">#00000000</color>
+    <color name="red">#99FF0000</color>
+    <color name="green">#9900ff00</color>
+    <color name="qin_se">#990000FF</color>
+    <color name="zi_se">#662997</color>
+
+
+
+    <color name="regionStartColor">#6482e6c9</color>
+    <color name="regionEndColor">#f00a2140</color>
+    <color name="regionCenterColor">#64ffffff</color>
+    <color name="pointColor">#BF158072</color>
+
+</resources>
