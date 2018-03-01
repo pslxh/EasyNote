@@ -97,14 +97,18 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.MyViewHolder
         }
         String img_path = note.getImgPath();
         holder.audio_img.setVisibility(TextUtils.isEmpty(note.getAudio_path()) ? View.GONE : View.VISIBLE);
-        if (TextUtils.isEmpty(img_path) || !img_path.contains("<img")) {
+        if (TextUtils.isEmpty(img_path) || !checkImage(img_path)) {
             holder.imageView.setVisibility(View.GONE);
         } else {
-            ImageLoader.getInstance().displayImage(note.getImgPath(), holder.imageView);
+            ImageLoader.getInstance().displayImage(img_path, holder.imageView);
             Log.e("Adlog", "\"file://\"+image.getImgPath():" + note.getImgPath());
         }
     }
 
+    private boolean checkImage(String path){
+
+        return path.endsWith(".png")||path.endsWith(".jpg");
+    }
 
     private String sub_imgPath(String msg) {
         String reg = "<img.*?>";
